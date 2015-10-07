@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header class="black-bg header">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+      </div>
+      <a href="dashboard.html" class="logo visible-lg"><strong>ADVENTURES TIME: DASHBOARD</strong></a>
+      <a href="dashboard.html" class="logo visible-xs"><strong>ADV.TIME</strong></a>
+      <div class="top-menu">
+        <ul class="nav pull-right top-menu">
+          <li><a href="login.html" class="logout">Logout</a></li>
+        </ul>
+      </div>
+    </header>
+    <aside>
+       <div id="sidebar" class="nav-collapse ">
+         <ul class="sidebar-menu">
+           <p class="text-ceTnter">
+             <a href="dashboard.html">
+               <img src="img/profile_avatar.png" class="img-circle" width="60">
+             </a>
+           </p>
+           <h5 class="text-center">Bonnibel Bubblegum</h5>
+           <li class="sub-menu">
+             <a href="dashboard.html"><i class="fa fa-dashboard"></i>Tablero</a>
+           </li>
+           <li class="sub-menu">
+             <a href="buttons.html"><i class="fa fa-desktop"></i>Botones</a>
+           </li>
+           <li class="sub-menu">
+             <a href="progress.html"><i class="fa fa-desktop"></i>Barras de Progreso</a>
+           </li>            
+           <li class="sub-menu">
+             <a class="active" href="form_component.html"><i class="fa fa-cogs"></i>Formas</a>
+           </li>
+           <li class="sub-menu">
+            <a href="basic_tables.html">
+            <i class="fa fa-th"></i>Tablas de datos</a>
+           </li>            
+           <li class="sub-menu">
+             <a href="gallery.html"><i class="fa fa-tasks"></i>Galería</a>
+           </li>
+           <li class="sub-menu">
+             <a href="login.html"><i class="fa fa-book"></i>Página de inicio de sesión</a>
+           </li> 
+         </ul>
+       </div>
+    </aside>
+    <section id="main-content">
+      <div class="wrapper">
+        <h3><i class="fa fa-angle-right"></i> Forms Elements</h3>
+        <div class="mb"></div>
+        <div class="form-panel">
+          <div class="form-horizontal style-form">
+            <div class="col-sm-12">
+              <h4>
+                <i class="fa fa-angle-right"></i> Forms Elements
+              </h4>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-2">
+                <h5>Default</h5>
+              </div>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="Default">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-2">
+                <h5>Help Text</h5>
+              </div>
+              <div class="col-sm-10">
+                <input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+                <p>A block of help text that breaks onto a new line and may extend beyond one line.</p>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-2">
+                <h5>Rounder</h5>
+              </div>
+              <div class="col-sm-10">
+                <input type="text" class="form-control round-form" id="rounderInput">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-2">
+                <h5>Input Focus</h5>
+              </div>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="focusedInput" placeholder="This is focused...">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-2">
+                <h5>Disabled</h5>
+              </div>
+              <div class="col-sm-10">
+                <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-2">
+                <h5>Placeholder</h5>
+              </div>
+              <div class="col-sm-10">
+                <input class="form-control" id="placeholderInput" type="text" placeholder="Placeholder">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-2">
+                <h5>Password</h5>
+              </div>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-2">
+                <h5>Static control</h5>
+              </div>
+              <div class="col-sm-10">
+                <p class="form-control-static">email@example.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mb"></div>
+        <div class="form-panel">
+          <div class="form-group">
+            <h4>
+              <i class="fa fa-angle-right"></i> Inline Form
+            </h4>
+          </div>
+          <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputEmail3">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputPassword3">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+            </div>
+            <button type="submit" class="btn">Sign in</button>
+          </form>
+        </div>
+        <div class="mb"></div>
+        <div class="form-panel">
+          <h4><i class="fa fa-angle-right"></i> Input Messages</h4>
+          <form action="" class="form-horizontal">
+            <div class="form-group has-success">
+              <div class="col-sm-2">
+                <h5 class="control-label" for="inputSuccess1"><strong>Input with success</strong></h5>
+              </div>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputSuccess1">
+              </div>
+            </div>
+            <div class="form-group has-warning">
+              <div class="col-sm-2">
+                <h5  class="control-label" for="inputWarning1"><strong>Input with warning</strong></h5>
+              </div>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputSuccess1">
+              </div>
+            </div>
+            <div class="form-group has-error">
+              <div class="col-sm-2">
+                <h5 class="control-label" for="inputError1"><strong>Input with error</strong></h5>
+              </div>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputSuccess1">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="mb"></div>
+        <div class="form-panel">
+          <h4>
+            <i class="fa fa-angle-right"></i> Checkboxes, Radios & Selects
+          </h4>
+          <form action="" class="form-horizontal">
+            <div class="has-success">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="checkboxSuccess" value="option1">
+                  Checkbox with success
+                </label>
+              </div>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="opciones" id="opciones_1" value="opcion_1" checked>
+                Option one is this and that  be sure to include why it's great.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="opciones" id="opciones_2" value="opcion_2">
+                option two can be something else and selecting it will deselect option one
+              </label>
+            </div>
+            <div class="page-header"></div>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="checkboxEnLinea1" value="opcion_1"> 1
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="checkboxEnLinea2" value="opcion_2"> 2
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="checkboxEnLinea3" value="opcion_3"> 3
+            </label>
+            <div class="page-header"></div>
+            <select class="form-control mb">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <select multiple class="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
